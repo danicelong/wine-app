@@ -5,7 +5,7 @@ import AddWineForm from "./add-wine-form";
 
 export default function WinesPage() {
   return (
-    <main className="mx-auto flex max-w-md flex-col gap-6 p-4">
+    <main className="mx-auto flex min-h-screen max-w-md flex-col gap-6 bg-pink-100 p-4">
       <h1 className="text-2xl font-bold">My Wines</h1>
 
       <AddWineForm />
